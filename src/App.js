@@ -29,7 +29,7 @@ return (
 <div className="App">
 <div>
 <h1>My Calculator </h1>
-<h2>{input}</h2>
+<h2 data-testid="display">{input}</h2>
 {/* need to pass handle click as a prop down to operator and numbers */}
 <Operators handleClick={handleClick}/>
 <Numbers handleClick={handleClick}/>
